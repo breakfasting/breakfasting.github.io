@@ -1,0 +1,19 @@
+
+.jumbotron {
+/*    background-color: coral;*/
+    background-image: url("../assets/bg.jpg");
+    background-position:center;
+    color: #fff; /*text color*/
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    width: auto;
+    height: 400px;;
+    background-size: cover;
+    overflow: hidden;    
+    
+-webkit-filter: blur(2px);
+-moz-filter: blur(2px);
+-o-filter: blur(2px); 
+-ms-filter: blur(2px);
+filter: blur(2px);
+}
