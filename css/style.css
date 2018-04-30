@@ -69,3 +69,6 @@ section {
     color: white;
 }
 
+a:hover h1 {
+    color: #F4B800;
+}
