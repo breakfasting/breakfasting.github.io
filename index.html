@@ -1,73 +1,98 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>My First Homepage</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wayne Su</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <div id="wrapper">
-        <div id="banner">
-            <div class="container">
-                <h1>Homepage</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand mr-auto" href="#">
+                <img src="images/logo.png" width="100" height="100" alt="">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">WORKS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">RESUME</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="d-flex justify-content-center">
+        <div class="head d-inline-flex flex-column justify-content-center">
+            <div>
+                <h1>>_Hi! I'm Wayne Su,</h1>
+            </div>
+            <div style="margin-left: 1.4em;">
+                <h1>And I'm passionate about <u class="code">coding</u>, <u class="science">data science</u> & <u class="design">visual design</u>!</h1>
             </div>
         </div>
-        <div id="nav">
-            <div class="container">
-                <ul>
-                    <li><a href="#introduction">Introduction</a></li>
-                    <li><a href="#members">Members</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#publications">Publications</a></li>
-                    <li><a href="#links">Links</a></li>
-                </ul>
-            </div>
-        </div>
-        <div id="content">
-            <div class="container">
-                <div id="introduction" class="item">
-                    <h1>Introduction</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris lacus, maximus et gravida at, dapibus sit amet diam. Duis semper tincidunt vulputate. Praesent fermentum mauris vel lectus ultrices ornare. Maecenas elit leo, egestas vitae congue a, hendrerit id elit. Etiam mauris erat, tempus eget turpis sit amet, scelerisque mollis massa. Proin lacinia urna at laoreet vestibulum. Aenean consequat ipsum volutpat enim ultricies, ac mollis risus tempus. Etiam sed nisl non justo maximus maximus ut vel magna. Phasellus porta, ipsum vel malesuada feugiat, quam mi feugiat leo, sed sodales erat tellus efficitur ipsum. Nunc luctus cursus gravida.</p>
-                </div>
-                <div id="members" class="item">
-                    <h1>Members</h1>
-                    <p>Vestibulum ex orci, iaculis sed vehicula rhoncus, condimentum vitae quam. Vivamus nec eros a mauris bibendum pellentesque ut vitae dolor. Donec posuere tellus quis turpis sodales interdum sed sed odio. Ut auctor sodales commodo. Phasellus et tristique diam, a tincidunt nulla. Aliquam gravida accumsan erat sed pharetra. Nunc sodales nunc quam, vitae viverra leo mollis ac. Duis condimentum nunc diam, ac maximus dui posuere eget. Nullam eget lectus nec purus finibus fringilla id in purus. Aliquam non massa sed lectus egestas suscipit. Pellentesque non feugiat risus. Sed iaculis metus nibh, sit amet volutpat dolor dignissim at. Aenean mi purus, tempor sit amet mattis at, consequat non dolor. Fusce condimentum velit sit amet aliquam efficitur. Cras porttitor nunc sed ex elementum fermentum. Nunc orci ligula, commodo a venenatis non, bibendum quis dolor.</p>
-                </div>
-                <div id="projects" class="item">
-                    <h1>Projects</h1>
-                    <p>Donec pretium magna ac dapibus ornare. Aenean malesuada neque erat, id ornare augue tincidunt at. Nunc vel lectus non erat fermentum ornare quis et tortor. Nunc nec blandit dolor. Praesent vitae aliquet urna. Vestibulum fringilla ligula in maximus cursus. Vestibulum gravida, quam pretium rhoncus venenatis, ligula sem convallis arcu, ut laoreet est dolor et ipsum. Cras pharetra nibh a mi condimentum suscipit. Sed nec urna turpis. Integer in risus neque.</p>
-                </div>
-                <div id="publications" class="item">
-                    <h1>Publications</h1>
-                    <p>Nulla eu gravida eros, a tristique ligula. Nam tincidunt risus et lacinia imperdiet. Morbi in dictum leo, sed faucibus mauris. Integer mollis iaculis felis ac dignissim. Nullam nec interdum odio, vitae hendrerit lorem. Mauris feugiat tristique arcu, ac hendrerit enim lacinia vel. Donec sem nisi, pellentesque nec ullamcorper sit amet, efficitur at lorem. Sed pellentesque risus odio, tincidunt porta erat feugiat vel. Curabitur luctus sagittis tempus. Duis lacus nibh, dapibus in sapien et, bibendum vestibulum sem. Nunc in nibh sit amet ligula volutpat sollicitudin eget ac diam. Donec pellentesque nisl nec ornare egestas. Cras velit ex, sollicitudin et pulvinar vel, pulvinar id libero. Phasellus vitae ornare risus, ac sagittis velit. Maecenas sollicitudin, tellus in venenatis aliquet, arcu urna ultrices est, sed ultricies elit felis id est. Ut in sodales mi.</p>
-                </div>
-                <div id="links" class="item">
-                    <h1>Links</h1>
-                    <div class="img"><a href="" target="_blank"><img src="asset/website1.jpeg"><p>website 1</p></a></div>
-                    <div class="img"><a href="" target="_blank"><img src="asset/website2.jpeg"><p>website 2</p></a></div>
-                    <div class="img"><a href="" target="_blank"><img src="asset/website3.jpeg"><p>website 3</p></a></div>
-                    <div class="img"><a href="" target="_blank"><img src="asset/website4.jpeg"><p>website 4</p></a></div>
-                    <div class="img"><a href="" target="_blank"><img src="asset/website5.jpeg"><p>website 5</p></a></div>
-                    <div class="img"><a href="" target="_blank"><img src="asset/website6.jpeg"><p>website 6</p></a></div>
-                </div>
-            </div>
-        </div>
-        <div id="supporting">
-            <div class="container"></div>
-        </div>
-        <div id="footer">
-            <div class="container">
+    </header>
+    <section>
+        <div class="container py-5">
+            
+            <h1>// Projects<span class="design">.</span></h1>
+            <p class="text-muted">Last Updated 2017/04/29</p>
 
-                <!--
-            <p>Inline Elements vs Block Elements</p>
-            <p>使用最少的空間 ex. a img vs 左右延伸到滿 ex. p h1 div</p>
-            <div id="notes"><h2>Notes</h2></div>
-            <div id="notes_para"><p>Brackets.io "Ctrl+/" = comment</p></div>
--->
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5 mt-4">
+                    <div class="img-container">
+                        <img class="img-fluid" src="images/project-ntuac.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="text d-flex flex-column justify-content-center text-center">
+                            <span>NTU Global Lounge Activity Calendar</span>
+                            <small>UX, Visual, Vanilla JavaScript, HTML, CSS</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-5 mt-4">
+                    <div class="img-container">
+                        <img class="img-fluid" src="images/project-sfbms2016.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="text d-flex flex-column justify-content-center text-center">
+                            <span>SFBMS, EAJS, CSSBMR 2016</span>
+                            <small>UX, Partial RWD, HTML, CSS</small>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5 mt-4">
+                    <div class="img-container">
+                        <img class="img-fluid" src="images/project-snerd.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="text d-flex flex-column justify-content-center text-center">
+                            <span>Society for Neurological Rare Disorders</span>
+                            <small>UX, RWD, jQuery, HTML, CSS</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-5 mt-4">
+                    <div class="img-container">
+                        <img class="img-fluid" src="images/project-ndg.jpg" alt="">
+                        <div class="overlay"></div>
+                        <div class="text d-flex flex-column justify-content-center text-center">
+                            <span>Neuroscience Discussion Group</span>
+                            <small>PHP, HTML, CSS</small>
+                        </div>
+                    </div>
+                </div>
+            </div>            
         </div>
-    </div>
+    </section>
 </body>
-
 </html>
+
+

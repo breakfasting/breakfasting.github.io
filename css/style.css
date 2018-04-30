@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f8f8;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: normal;
+    color: white;
+    background-color: #222222;
+    display: inline;
+}
+
+.code {
+    color: #7BB94E;
+}
+.science {
+    color: #1DA1F2;
+}
+.design {
+    color: #F4B800;
+}
+
+.head {
+    height: 400px;
+}
+
+section {
+    background-color: white;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container:hover .overlay {
+    opacity: 0.6;
+}
+
+.img-container:hover .text {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0; 
+    transition: .5s ease;
+    color: white;
+}
+
