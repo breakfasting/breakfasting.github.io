@@ -10,7 +10,7 @@ class NewPost extends Component {
           <h1>&frasl;&frasl; NewPost<span className="design">.</span></h1>
           <form className="pt-3">
             <label htmlFor="postTitle" className="w-100">
-              Post Title
+              Title
               <input type="text" className="form-control" id="postTitle" placeholder="Example Title" />
             </label>
             <label htmlFor="postCategory" className="pt-2">
@@ -20,6 +20,10 @@ class NewPost extends Component {
                 <option>Visual Design</option>
                 <option>Other</option>
               </select>
+            </label>
+            <label htmlFor="postDesc" className="w-100">
+              Description
+              <input type="text" className="form-control" id="postDesc" placeholder="A new post description" />
             </label>
             <label htmlFor="postBody" className="w-100 pt-2">
               Article

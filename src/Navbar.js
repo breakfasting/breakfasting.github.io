@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import mainLogo from './img/logo.png';
 
 class Navbar extends Component {
   render() {
@@ -9,7 +10,7 @@ class Navbar extends Component {
       <nav className="navbar navbar-expand-md navbar-light bg-white">
         <div className="container">
           <Link className="navbar-brand mr-auto" to="/">
-            <img src="images/logo.png" width="100" height="100" alt="" />
+            <img src={mainLogo} width="100" height="100" alt="" />
           </Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />

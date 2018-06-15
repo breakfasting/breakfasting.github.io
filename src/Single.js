@@ -1,16 +1,16 @@
-/* eslint-disable react/prefer-stateless-function, react/jsx-filename-extension, max-len */
+/* eslint-disable react/prefer-stateless-function, react/jsx-filename-extension, max-len, react/prop-types, prefer-template */
 
 import React, { Component } from 'react';
 
-function Header() {
+function Header(props) {
   return (
-    <header className="container d-flex justify-content-center bg-head" style={{ backgroundImage: 'url(images/project-snerd.jpg)' }}>
+    <header className="container d-flex justify-content-center bg-head" style={{ backgroundImage: 'url(../' + props.thumb + ')' }}>
       <div className="head d-inline-flex flex-column justify-content-end">
         <div>
-          <h1>&gt;_<span className="code">Website Project</span></h1>
+          <h1>&gt;_<span className="code">{props.cat}</span></h1>
         </div>
         <div className="spaces">
-          <h1>Society for Neurological Rare Disorders, Taiwan</h1>
+          <h1>{props.title}</h1>
         </div>
       </div>
     </header>
@@ -19,15 +19,16 @@ function Header() {
 
 class Single extends Component {
   render() {
+    const post = this.props.posts[this.props.match.params.postId];
     return (
       <div>
-        <Header />
+        <Header cat={post.cat} title={post.title} thumb={post.thumb} />
         <section>
           <div className="container py-5">
             <h1>&frasl;&frasl; Article<span className="design">.</span></h1>
-            <p className="text-muted">Posted 2018-04-29</p>
+            <p className="text-muted">Posted {post.time}</p>
             <p className="py-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quasi explicabo atque, assumenda veritatis quam, natus est eaque ad accusantium dolorem omnis iste animi laborum earum totam perspiciatis molestiae ab iusto et architecto voluptate ea. Ut, assumenda voluptate. Voluptas, voluptate!
+              {post.article}
             </p>
           </div>
         </section>
