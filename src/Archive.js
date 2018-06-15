@@ -25,7 +25,7 @@ function Posts() {
     <section>
       <div className="container py-5">
         <h1>
-          &frasl;&frasl; Projects
+          &frasl;&frasl; Posts
           <span className="design">.</span>
         </h1>
         <p className="text-muted">Last Updated 2018-04-29</p>

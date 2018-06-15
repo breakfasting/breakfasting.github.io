@@ -25,7 +25,7 @@ class Single extends Component {
         <section>
           <div className="container py-5">
             <h1>&frasl;&frasl; Article<span className="design">.</span></h1>
-            <p className="text-muted">Last Updated 2018-04-29</p>
+            <p className="text-muted">Posted 2018-04-29</p>
             <p className="py-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quasi explicabo atque, assumenda veritatis quam, natus est eaque ad accusantium dolorem omnis iste animi laborum earum totam perspiciatis molestiae ab iusto et architecto voluptate ea. Ut, assumenda voluptate. Voluptas, voluptate!
             </p>

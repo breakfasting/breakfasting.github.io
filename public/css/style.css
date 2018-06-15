@@ -1,7 +1,18 @@
+html, body, #root {
+    height: 100%;
+}
+
+.App {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f8f8f8;
     font-size: 1.2em;
+
 }
 
 h1 {
@@ -30,6 +41,10 @@ h2 {
 }
 .design {
     color: #F4B800;
+}
+
+.btn-dark {
+    background-color: #222222;    
 }
 
 .head {
