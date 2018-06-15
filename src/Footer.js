@@ -1,4 +1,4 @@
-/* eslint-disable react/prefer-stateless-function, react/jsx-filename-extension, max-len, jsx-a11y/anchor-is-valid */
+/* eslint-disable react/prefer-stateless-function, react/jsx-filename-extension, max-len */
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';

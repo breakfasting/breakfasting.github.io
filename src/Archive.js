@@ -1,4 +1,4 @@
-/* eslint-disable react/prefer-stateless-function, react/jsx-filename-extension, max-len, react/prop-types, jsx-a11y/anchor-is-valid */
+/* eslint-disable react/prefer-stateless-function, react/jsx-filename-extension, max-len, react/prop-types */
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
@@ -30,7 +30,7 @@ function Block(props) {
           <div className="overlay" />
           <div className="text d-flex flex-column justify-content-center text-center">
             <span>{props.title}</span>
-            <small>{props.desc}</small>
+            <small>{props.descr}</small>
           </div>
         </div>
       </Link>
@@ -136,9 +136,9 @@ class Archive extends Component {
             <p className="text-muted">Last Updated 2018-04-29</p>
             <div className="row justify-content-center">
               {this.props.posts.map(({
-                postId, title, desc, thumb,
+                postId, title, descr, thumb,
               }) => (
-                <Block key={postId} postId={postId} title={title} desc={desc} thumb={thumb} />
+                <Block key={postId} postId={postId} title={title} descr={descr} thumb={thumb} />
               ))}
             </div>
           </div>
